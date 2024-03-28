@@ -1,0 +1,55 @@
+body {
+  font-family: Arial;
+  background-color: rgb(222, 236, 255);
+}
+
+.timer {
+  font-size: 100px;
+  margin-top: 100px;
+  width: fit-content;
+  margin: auto;
+}
+
+.button {
+  width: auto;
+  height: 40px;
+  margin: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: darkgrey;
+}
+
+.button:active {
+  background-color: gray;
+}
+
+.btns {
+  font-size: 20px;
+  text-align: center;
+}
+
+.times {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.unactive {
+  background-color: white;
+  color: grey;
+  cursor: default;
+}
+
+.unactive:hover {
+  background-color: white;
+}
+
+.button:active {
+  background-color: white;
+}
